@@ -32,7 +32,7 @@
             </div>
             <div class="col-sm-2">
                 <div class="text-end pe-1">
-                    Entry: Only By Innovation
+                    Entry: Only By Invitation
                 </div>
             </div>
         </div>
