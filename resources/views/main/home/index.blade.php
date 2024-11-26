@@ -1,4 +1,4 @@
-<x-layout.main.base>
+<x-layout.main.home>
 
  <div class="bg-image">
     <div class="section-text">
@@ -7,4 +7,4 @@
     <img src="{{asset('assets/main/images/lf.png')}}" alt="">
 </div>
   
-</x-layout.main.base>
+</x-layout.main.home>
