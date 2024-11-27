@@ -255,4 +255,16 @@
     font-size: 35px;
    }
    
+   /* Navigation */
+nav{
+    background-color:#ffffff !important;
+    padding-bottom:2px !important;
+    padding-top:2px !important;
+   }
+   
+   /* List */
+   #navbarNav ul{
+    background-color:#ffffff;
+   }
+   
    

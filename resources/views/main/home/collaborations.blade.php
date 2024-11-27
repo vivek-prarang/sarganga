@@ -1,6 +1,7 @@
 @php
     $metaData['main-title'] = 'The Collaborations';
     $metaData['slogan']='Knowledge Projects – Research , Publish, Curate';
+    $metaData['bg-image']=asset('assets/img/lotus/Collab1.jpg');
     
 @endphp
 <x-layout.main.base :metaData="$metaData">

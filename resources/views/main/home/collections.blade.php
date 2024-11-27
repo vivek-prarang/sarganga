@@ -1,6 +1,7 @@
 @php
     $metaData['main-title'] = 'The Collections';
     $metaData['slogan']='Knowledge Aggregation & Knowledge Acquisition';
+    $metaData['bg-image']=asset('assets/img/lotus/i5.JPG');
 @endphp
 <x-layout.main.base :metaData="$metaData">
     <section class="container mt-4">
@@ -26,7 +27,7 @@
                 <li>Over 200,000 Objects Including 25,000+ Books – Mostly Prints, Music CDs & Film DVDs</li>
             </ul>
         </div>
-        <a type="button" data-bs-toggle="modal" data-bs-target="#whydowecollect" class="text-primary text-blue-500s"
+        <a type="button" data-bs-toggle="modal" data-bs-target="#whydowecollect" class="text-light fw-bolder text-blue-500s"
             href="">Purpose – Why do we collect ?</a>
     </section>
     <div class="modal fade" id="whydowecollect" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"

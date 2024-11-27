@@ -1,6 +1,7 @@
 @php
     $metaData['main-title'] = 'Contacts';
     $metaData['slogan']='Knowledge Network – Connect with Us';
+    $metaData['bg-image']=asset('assets/img/lotus/Cont1.jpg');
 @endphp
 <x-layout.main.base :metaData="$metaData">
   <section class="container mt-4">
