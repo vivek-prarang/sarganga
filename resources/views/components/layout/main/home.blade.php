@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saraswati By Ganga</title>
+    <title>{{ $metaData['title'] ?? 'Saraswati By Ganga'}}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="{{ $metaData['author'] ?? 'Vivek Yadav' }}">
+    <meta name="description" content="{{ $metaData['description'] ?? '' }}">
+    <meta name="keywords" content="{{ $metaData['keywords'] ?? '' }}">
+    <meta name="robots" content="{{ $metaData['robots'] ?? 'index, follow' }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{{ $metaData['og_type'] ?? 'website' }}">
+    <meta property="og:title" content="{{ $metaData['title'] ?? 'Saraswati By Ganga' }}">
+    <meta property="og:description" content="{{ $metaData['description'] ?? '' }}">
+    <meta property="og:image" content="{{ $metaData['image'] ?? asset('assets/img/icon.png') }}">
+    <meta property="og:url" content="{{ $metaData['url'] ?? url()->current() }}">
+    <meta property="og:site_name" content="{{ $metaData['site_name'] ?? 'Fly Link' }}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="{{ $metaData['twitter_card'] ?? 'summary_large_image' }}">
+    <meta name="twitter:title" content="{{ $metaData['title'] ?? 'Saraswati By Ganga' }}">
+    <meta name="twitter:description" content="{{ $metaData['description'] ?? '' }}">
+    <meta name="twitter:image" content="{{ $metaData['image'] ?? asset('assets/img/icon.png') }}">
+    <meta name="twitter:site" content="{{ $metaData['site'] ?? '@defaulthandle' }}">
+    <meta name="twitter:creator" content="{{ $metaData['creator'] ?? '@defaultcreator' }}">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="{{ $metaData['canonical'] ?? url()->current() }}">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/icon.png') }}" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/main/css/style.css') }}">
 </head>

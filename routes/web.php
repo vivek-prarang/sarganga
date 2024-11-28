@@ -13,7 +13,7 @@ Route::get('contacts',[Home::class,'contacts'])->name('contacts');
 Route::get('blogs',[Home::class,'blogs'])->name('blogs');
 Route::get('site',[Home::class,'site'])->name('site');
 
-// collaborationscontacts
+// collaborations/contacts
 
 
 require __DIR__."/admin.php";
