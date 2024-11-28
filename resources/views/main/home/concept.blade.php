@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-4">
                         <div class="concept-flex-center">
-                            <img class="w-75 image-container" src="{{ asset('assets/img/concept-center.JPG') }}"
+                            <img class="w-75 image-container" src="{{ asset('assets/img/concept-center.jpg') }}"
                                 alt="">
                         </div>
                     </div>
@@ -263,7 +263,7 @@
                                 <img class="img-fluid w-75" src="{{ asset('assets/img/c4a.jpg') }}" alt="">
                             </div>
                             <div class="col-sm-6">
-                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4c.PNG') }}" alt="">
+                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4c.png') }}" alt="">
                             </div>
                         </div>
                         <div class="row">
@@ -293,7 +293,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c2c.JPG') }}" alt="Saraswati and Knowledge">
+                        <img class="img-fluid" src="{{ asset('assets/img/c2c.jpg') }}" alt="Saraswati and Knowledge">
                     </div>
                 </div>
             </div>
@@ -458,7 +458,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c2a.JPG') }}" alt="Geographic Knowledge">
+                        <img class="img-fluid" src="{{ asset('assets/img/c2a.jpg') }}" alt="Geographic Knowledge">
                         <br>
                         <h4 class="fw-bold mt-4">GEOGRAPHIC KNOWLEDGE : HYPERLOCAL </h4>
                         <p>Key to transition from a White-Dark Mind-Set to Full-Colour Thinking</p>
@@ -469,7 +469,7 @@
                             human being nourishes act as binding factors between him and his Cosmos.
 
                         </p>
-                        <img class="img-fluid" src="{{ asset('assets/img/c2b.JPG') }}" alt="Geographic Knowledge">
+                        <img class="img-fluid" src="{{ asset('assets/img/c2b.jpg') }}" alt="Geographic Knowledge">
 
                         <div class="row">
                             <div class="col-sm-6"><img class="img-fluid" src="{{ asset('assets/img/c3c.jpg') }}"
@@ -519,7 +519,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c7a.JPG') }}"
+                        <img class="img-fluid" src="{{ asset('assets/img/c7a.jpg') }}"
                             alt="Language – Emotion & Colors">
                     </div>
                 </div>
