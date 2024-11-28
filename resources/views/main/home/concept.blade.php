@@ -268,11 +268,9 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-
                                 <img class="img-fluid w-75" src="{{ asset('assets/img/c4b.JPG') }}" alt="">
                             </div>
                             <div class="col-sm-6">
-
                                 <img class="img-fluid w-75" src="{{ asset('assets/img/c4d.JPG') }}" alt="">
                             </div>
                         </div>

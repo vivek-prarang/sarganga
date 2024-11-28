@@ -5,6 +5,6 @@
 @endphp
 <x-layout.main.base :metaData="$metaData">
   <section class="container mt-4">
-    <p class="p-3">This is a new non-profit project being undertaken by the Mathur Family trust. The family resides in Noida, UP, India , just 75 mts drive away from this address. To connect , please email to - Indoeuropeans at Gmail dot com
+    <p class="p-3">This is a new non-profit project being undertaken by the Mathur Family trust. The family resides in Noida, UP, India , just 75 mts drive away from this address. To connect , please email to -   <a href="mailto:indoeuropeans@gmail.com">indoeuropeans@gmail.com</a>
     </p>
 </x-layout.main.base>
