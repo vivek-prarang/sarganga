@@ -5,7 +5,15 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/',[Home::class,'index'])->name('home');
+Route::get('/',[Home::class,'index'])->name('home');Route::get('/',[Home::class,'index'])->name('home');
+Route::get('collections',[Home::class,'collections'])->name('collections');
+Route::get('concept',[Home::class,'concept'])->name('concept');
+Route::get('collaborations',[Home::class,'collaborations'])->name('collaborations');
+Route::get('contacts',[Home::class,'contacts'])->name('contacts');
+Route::get('blogs',[Home::class,'blogs'])->name('blogs');
+Route::get('site',[Home::class,'site'])->name('site');
+
+// collaborationscontacts
 
 
 require __DIR__."/admin.php";

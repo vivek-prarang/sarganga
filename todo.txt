@@ -1,0 +1,47 @@
+1.New NavBar Done
+2.Logo Setup Done
+3.Collections Done
+4.Collections POPUP Done
+5.Concept 
+6.Saraswati and Knowledge -- popup
+    -> Geographic Knowledge--popup
+    -> Knowledge & Language--popup
+    -> Language & Intelligence--popup
+    -> Language & Learning--popup
+    -> Language – Emotion & Colours--popup
+
+7.Collaborations
+8.Contacts
+9.Blogs
+10.The Site 
+
+
+
+AWS Setup: 
+
+AWS Console Login
+select EC2 Instacs 
+Lunch Instance 
+
+Select OS Image (Amazon Machine Image)
+Key Pair -Requried
+ Download . pem file 
+
+Network Setting :
+    Allow Https, Http
+MobaXtream Software  for SSH Connect 
+login using User id 
+
+
+HTTP D-erver
+
+yum update -y
+
+yum install httpd
+service httpd start 
+
+
+
+
+
+

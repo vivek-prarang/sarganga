@@ -11,9 +11,10 @@ class Base extends Component
      *
      * @return void
      */
-    public function __construct()
+    public $metaData;
+    public function __construct($metaData=[])
     {
-        //
+        $this->metaData=$metaData;
     }
 
     /**
