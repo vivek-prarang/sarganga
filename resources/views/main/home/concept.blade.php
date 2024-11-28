@@ -263,7 +263,7 @@
                                 <img class="img-fluid w-75" src="{{ asset('assets/img/c4a.jpg') }}" alt="">
                             </div>
                             <div class="col-sm-6">
-                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4c.PNG') }}" alt="">
+                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4c.png') }}" alt="">
                             </div>
                         </div>
                         <div class="row">
