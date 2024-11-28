@@ -1,28 +1,22 @@
 @php
     $metaData['main-title'] = 'The Concept';
     $metaData['slogan'] = 'Knowledge Management';
-    $metaData['bg-image'] = asset('assets/img/lotus/i7.JPG');
+    $metaData['bg-image'] = asset('assets/img/lotus/i7.jpg');
 
 @endphp
 <x-layout.main.base :metaData="$metaData">
-
     <style>
-        /* Container for the row to center elements */
         .concept-flex-center {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100%;
         }
-
-        /* Styling for the buttons */
         .btn-info {
             width: 100%;
             text-align: center;
             padding: 10px;
         }
-
-
         .concept-flex-center img {
             display: block;
             margin-left: auto;
@@ -30,50 +24,35 @@
             max-width: 100%;
             max-height: 100%;
         }
-
         .col-sm-8 .concept-flex-center img {
             margin-right: 3px;
             margin-left: 0px;
         }
-
-        /* Image */
         .container .row .col-sm-8 .row .col-4 .concept-flex-center img {
             width: 459px !important;
         }
-
         .sars-p p {
             font-size: 14px;
         }
-
         .sars-p h2 {
             font-size: 18px;
         }
-
-        /* Heading */
         #saraswatiKnowledge .sars-p h2 {
             font-size: 17px;
             font-weight: 600;
         }
-
-        /* Paragraph */
         #saraswatiKnowledge .sars-p p {
             font-size: 14px !important;
             text-align: justify;
         }
-
-        /* Modal body */
         #saraswatiKnowledge .modal-dialog .modal-body {
             overflow: scroll;
             max-height: 80vh;
         }
-
-        /* Col 5 */
         #saraswatiKnowledge .modal-body .col-sm-5 {
             position: sticky;
             top: 1px;
         }
-
-        /* Button */
     </style>
 
     <style>
@@ -87,8 +66,6 @@
             letter-spacing: 0.6px;
             word-spacing: 2.9px;
         }
-
-        /* List Item */
         .container ul li {
             font-weight: 400;
         }
@@ -96,7 +73,8 @@
         .container ul li a:hover {
             font-weight: 600;
         }
-        .modal-title{
+
+        .modal-title {
             text-align: center !important;
         }
     </style>
@@ -522,8 +500,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c6a.jpg') }}"
-                            alt="Language & Learning">
+                        <img class="img-fluid" src="{{ asset('assets/img/c6a.jpg') }}" alt="Language & Learning">
                     </div>
                 </div>
             </div>

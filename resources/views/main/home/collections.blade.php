@@ -1,7 +1,7 @@
 @php
     $metaData['main-title'] = 'The Collections';
     $metaData['slogan']='Knowledge Aggregation & Knowledge Acquisition';
-    $metaData['bg-image']=asset('assets/img/lotus/i5.JPG');
+    $metaData['bg-image']=asset('assets/img/lotus/i5.jpg');
 @endphp
 <x-layout.main.base :metaData="$metaData">
     <section class="container mt-4">
