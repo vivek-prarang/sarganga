@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-4">
                         <div class="concept-flex-center">
-                            <img class="w-75 image-container" src="{{ asset('assets/img/concept-center.jpg') }}"
+                            <img class="w-75 image-container" src="{{ asset('assets/img/concept-center.JPG') }}"
                                 alt="">
                         </div>
                     </div>
@@ -263,17 +263,17 @@
                                 <img class="img-fluid w-75" src="{{ asset('assets/img/c4a.jpg') }}" alt="">
                             </div>
                             <div class="col-sm-6">
-                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4c.png') }}" alt="">
+                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4c.PNG') }}" alt="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
 
-                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4b.jpg') }}" alt="">
+                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4b.JPG') }}" alt="">
                             </div>
                             <div class="col-sm-6">
 
-                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4d.jpg') }}" alt="">
+                                <img class="img-fluid w-75" src="{{ asset('assets/img/c4d.JPG') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -328,7 +328,7 @@
                                 <img class="img-fluid" src="{{ asset('assets/img/c5c.jpg') }}" alt="Image c5c">
                             </div>
                             <div class="col-sm-6">
-                                <img class="img-fluid" src="{{ asset('assets/img/c5d.jpg') }}" alt="Image c5d">
+                                <img class="img-fluid" src="{{ asset('assets/img/c5d.JPG') }}" alt="Image c5d">
                             </div>
                         </div>
                     </div>
@@ -458,7 +458,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c2a.jpg') }}" alt="Geographic Knowledge">
+                        <img class="img-fluid" src="{{ asset('assets/img/c2a.JPG') }}" alt="Geographic Knowledge">
                         <br>
                         <h4 class="fw-bold mt-4">GEOGRAPHIC KNOWLEDGE : HYPERLOCAL </h4>
                         <p>Key to transition from a White-Dark Mind-Set to Full-Colour Thinking</p>
@@ -500,7 +500,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c6a.jpg') }}" alt="Language & Learning">
+                        <img class="img-fluid" src="{{ asset('assets/img/c6a.JPG') }}" alt="Language & Learning">
                     </div>
                 </div>
             </div>
@@ -519,7 +519,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="text-center">
-                        <img class="img-fluid" src="{{ asset('assets/img/c7a.jpg') }}"
+                        <img class="img-fluid" src="{{ asset('assets/img/c7a.JPG') }}"
                             alt="Language – Emotion & Colors">
                     </div>
                 </div>

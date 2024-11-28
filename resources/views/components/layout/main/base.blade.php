@@ -195,7 +195,7 @@
         <div class="pt-3 mb-0 pb-0">
             <p class="text-center m-0 p-0">
                 All Rights Reserved &copy; {{ date('Y') }} <a target="_bank"
-                    href="https://sarganga.com/">sarganga.com</a>
+                    href="https://sarganga.org/">sarganga.org</a>
             </p>
         </div>
     </footer>
